@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC7C8B82276EFE0F00839879 /* Chinese24Jieqi in Frameworks */ = {isa = PBXBuildFile; productRef = DC7C8B81276EFE0F00839879 /* Chinese24Jieqi */; };
+		DC9EA55E276DCECE007E500A /* JieqiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9EA55D276DCECE007E500A /* JieqiApp.swift */; };
+		DC9EA560276DCECE007E500A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9EA55F276DCECE007E500A /* ContentView.swift */; };
+		DC9EA562276DCED0007E500A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9EA561276DCED0007E500A /* Assets.xcassets */; };
+		DC9EA565276DCED0007E500A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9EA564276DCED0007E500A /* Preview Assets.xcassets */; };
+		DC9EA570276DEC8B007E500A /* Jieqi-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9EA56E276DEC8B007E500A /* Jieqi-InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC9EA55A276DCECE007E500A /* Jieqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jieqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9EA55D276DCECE007E500A /* JieqiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JieqiApp.swift; sourceTree = "<group>"; };
+		DC9EA55F276DCECE007E500A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC9EA561276DCED0007E500A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9EA564276DCED0007E500A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC9EA566276DCED0007E500A /* Jieqi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jieqi.entitlements; sourceTree = "<group>"; };
+		DC9EA56F276DEC8B007E500A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Jieqi-InfoPlist.strings"; sourceTree = "<group>"; };
+		DCD3837D276F096400791697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Jieqi-InfoPlist.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9EA557276DCECE007E500A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7C8B82276EFE0F00839879 /* Chinese24Jieqi in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7C8B80276EFE0F00839879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC9EA551276DCECE007E500A = {
+			isa = PBXGroup;
+			children = (
+				DC9EA56E276DEC8B007E500A /* Jieqi-InfoPlist.strings */,
+				DC9EA55C276DCECE007E500A /* Jieqi */,
+				DC9EA55B276DCECE007E500A /* Products */,
+				DC7C8B80276EFE0F00839879 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9EA55B276DCECE007E500A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EA55A276DCECE007E500A /* Jieqi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9EA55C276DCECE007E500A /* Jieqi */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EA55D276DCECE007E500A /* JieqiApp.swift */,
+				DC9EA55F276DCECE007E500A /* ContentView.swift */,
+				DC9EA561276DCED0007E500A /* Assets.xcassets */,
+				DC9EA566276DCED0007E500A /* Jieqi.entitlements */,
+				DC9EA563276DCED0007E500A /* Preview Content */,
+			);
+			path = Jieqi;
+			sourceTree = "<group>";
+		};
+		DC9EA563276DCED0007E500A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EA564276DCED0007E500A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9EA559276DCECE007E500A /* Jieqi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9EA569276DCED0007E500A /* Build configuration list for PBXNativeTarget "Jieqi" */;
+			buildPhases = (
+				DC9EA556276DCECE007E500A /* Sources */,
+				DC9EA557276DCECE007E500A /* Frameworks */,
+				DC9EA558276DCECE007E500A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jieqi;
+			packageProductDependencies = (
+				DC7C8B81276EFE0F00839879 /* Chinese24Jieqi */,
+			);
+			productName = Jieqi;
+			productReference = DC9EA55A276DCECE007E500A /* Jieqi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9EA552276DCECE007E500A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DC9EA559276DCECE007E500A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DC9EA555276DCECE007E500A /* Build configuration list for PBXProject "Jieqi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DC9EA551276DCECE007E500A;
+			packageReferences = (
+				DC7C8B73276EFC5300839879 /* XCRemoteSwiftPackageReference "Chinese-24-Jieqi" */,
+			);
+			productRefGroup = DC9EA55B276DCECE007E500A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9EA559276DCECE007E500A /* Jieqi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9EA558276DCECE007E500A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9EA570276DEC8B007E500A /* Jieqi-InfoPlist.strings in Resources */,
+				DC9EA565276DCED0007E500A /* Preview Assets.xcassets in Resources */,
+				DC9EA562276DCED0007E500A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9EA556276DCECE007E500A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9EA560276DCECE007E500A /* ContentView.swift in Sources */,
+				DC9EA55E276DCECE007E500A /* JieqiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC9EA56E276DEC8B007E500A /* Jieqi-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9EA56F276DEC8B007E500A /* zh-Hans */,
+				DCD3837D276F096400791697 /* en */,
+			);
+			name = "Jieqi-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9EA567276DCED0007E500A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC9EA568276DCED0007E500A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC9EA56A276DCED0007E500A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jieqi/Jieqi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jieqi/Preview Content\"";
+				DEVELOPMENT_TEAM = 96NM39SGJ5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parussoft.Jieqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC9EA56B276DCED0007E500A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jieqi/Jieqi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jieqi/Preview Content\"";
+				DEVELOPMENT_TEAM = 96NM39SGJ5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parussoft.Jieqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9EA555276DCECE007E500A /* Build configuration list for PBXProject "Jieqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9EA567276DCED0007E500A /* Debug */,
+				DC9EA568276DCED0007E500A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9EA569276DCED0007E500A /* Build configuration list for PBXNativeTarget "Jieqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9EA56A276DCED0007E500A /* Debug */,
+				DC9EA56B276DCED0007E500A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC7C8B73276EFC5300839879 /* XCRemoteSwiftPackageReference "Chinese-24-Jieqi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:owenzhao/Chinese-24-Jieqi.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC7C8B81276EFE0F00839879 /* Chinese24Jieqi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC7C8B73276EFC5300839879 /* XCRemoteSwiftPackageReference "Chinese-24-Jieqi" */;
+			productName = Chinese24Jieqi;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC9EA552276DCECE007E500A /* Project object */;
+}
