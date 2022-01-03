@@ -11,9 +11,9 @@ import Chinese24Jieqi
 struct ContentView: View {
     @State var date:Date = {
         var cps = DateComponents()
-        cps.year = 2021
-        cps.month = 12
-        cps.day = 8
+        cps.year = 2022
+        cps.month = 1
+        cps.day = 4
         
         let date = Calendar(identifier: .gregorian).date(from: cps)!
         
